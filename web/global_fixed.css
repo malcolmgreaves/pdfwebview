@@ -1,0 +1,83 @@
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// global_fixed.css
+// Copyright (c) 2016 Pdfix. All Rights Reserved.
+////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::selection { 
+  background: rgba(0,100,255,0.3); 
+
+}
+::-moz-selection { 
+  background: rgba(0,100,255,0.3); 
+}
+
+body {
+  background-color: gray;
+}
+
+div {
+  vertical-align: top;
+  padding: 0px;
+  margin: 0px;
+}
+
+span {
+  position: relative;
+  left: 0px;
+  transform-origin: 0% 0% 0px;
+}
+
+.pdf-page {
+  background-color: white;
+  border: 1px;
+  display: inline-block; 
+  position: relative;  
+  background-repeat: no-repeat; 
+  background-size: contain; 
+}
+
+.pdf-txt-fixed {
+  padding: 0px;
+  margin: 0px;
+  cursor: text;
+  color: transparent;  
+  font-family: sans-serif;
+  -moz-transform-origin: 0% 0%;
+  transform-origin: 0% 0% 0px;
+  direction: ltr; 
+  white-space: nowrap; 
+  position: relative;
+}
+ 
+.pdf-obj-fixed {
+  display: block; 
+  position: absolute;  
+  box-sizing: border-box;  
+}
+
+.ff_ss {
+  font-family: sans-serif;
+}
+
+.ff_s {
+  font-family: serif;
+}
+
+.ff_m {
+  font-family: monospace;
+}
+
+.pdf-form-field {
+  background-color: #D2F0FA;
+  opacity: 0.6;
+}
