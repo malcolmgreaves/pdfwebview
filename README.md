@@ -5,9 +5,8 @@ PDF to DOCX conversion - Java
 Live demo at
 http://webview.pdfix.net/
 
-Descrption:
+Description:
 Java web application for converting and manipulating pdf files
-
 
 Development env: Netbeans
 Deployment env: Apache Tomcat Server
