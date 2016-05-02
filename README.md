@@ -20,7 +20,6 @@ Requirements (for windows server):
 Visual C++ Redistributable for Visual Studio 2015
 (https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
-
 Download zip file from www.pdfix.net/#download
 Generate trial license key for your platform at www.pdfix.net/#download
 
